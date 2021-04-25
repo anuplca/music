@@ -1,0 +1,27 @@
+:root {
+    --roboto_font: "Roboto", sans-serif;
+    --accent_color: #e01e3c;
+    --gray_color: #727272;
+    --trans: all 0.5s ease-in-out;
+}
+html{ scroll-behavior:smooth; }
+body { font-family:var(--roboto_font); font-size:16px; line-height:1.3; font-weight:400; margin:0; padding:0; }
+
+ul,
+ol { list-style:none; margin:0; padding:0; }
+a,
+a:hover { text-decoration:none; display:inline-block; }
+
+.bg-color { background-color:#f7f7f7; }
+.active { color: var(--accent-color); }
+i.bx { font-size:18px; color:#000; }
+
+section { padding:130px 0; }
+
+.heading h2 { font-family:var(--roboto_font); font-size:28px; line-height:1.3; font-weight:600; color:#000; letter-spacing:0.004em; text-transform:uppercase; }
+.heading p { font-family:var(--roboto_font); font-size:15px; line-height:1.6; font-weight:500; color:var(--gray-color); }
+
+.btn_accent { font-family:var(--roboto_font); font-size:16px;  line-height:1.3; font-weight:500; color:#fff; background-color:var(--accent_color); padding:12px 40px; letter-spacing:0.008em; border-radius:30px; text-transform:uppercase; }
+.btn_accent:hover { color:#fff; background-color:rgba(178, 3, 31, 0.9); }
+
+/**/
